@@ -65,7 +65,7 @@ var setYear = function(newYear) {
     partyToCandidate = {
       'dem': 'Al Gore',
       'gop': 'George W. Bush',
-//      'grn': "Green Party",
+      'grn': "Ralph Nader",
 //      'lib': 'Lib Party',
 //      'una': 'Evan McMullin',
       'oth': 'Other'
