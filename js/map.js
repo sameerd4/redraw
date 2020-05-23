@@ -58,6 +58,19 @@ var setYear = function(newYear) {
       'oth': 'Other'
     }
     loser = 'John Kerry';
+  }
+  else if (newYear === '2000') {
+    year = newYear;
+    dataFile = 'data/2000test.json';
+    partyToCandidate = {
+      'dem': 'Al Gore',
+      'gop': 'George W. Bush',
+//      'grn': "Green Party",
+//      'lib': 'Lib Party',
+//      'una': 'Evan McMullin',
+      'oth': 'Other'
+    }
+    loser = 'Al Gore';
   } /*else if (newYear === '2016i') {
     year = newYear;
     dataFile = 'data/us2016income.json';
@@ -91,6 +104,8 @@ if (getParameterByName('year') === '2012') {
   setYear('2008');
 } else if (getParameterByName('year') === '2004') {
   setYear('2004');
+} else if (getParameterByName('year') === '2000') {
+  setYear('2000');
 } /*else if (getParameterByName('year') === '2016i') {
   setYear('2016i');
 } */else {
