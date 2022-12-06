@@ -4,7 +4,7 @@
   "description": "A simple tool to redraw the American states",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.14.1",
+    "express": "^4.18.2",
     "topojson": "~1.6.19"
   },
   "scripts": {
